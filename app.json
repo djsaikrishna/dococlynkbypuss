@@ -1,0 +1,40 @@
+{
+  "name": "Dococ2022",
+  "description": "A Telegram bot to download TikTok videos without any watermark",
+  "logo" : "https://www.denofgeek.com/wp-content/uploads/2021/10/spider-man-no-way-home-doctor-octopus-alfred-molina-sony.jpg",
+  "success_url" : "",
+  "keywords": [
+    "telegram",
+    "bot",
+    "tiktok",
+    "jaybee"
+  ],
+  "repository": "https://github.com/saikrishnaegcc2/dococlynkbypuss",
+  "website": "https://github.com/saikrishnaegcc2/dococlynkbypuss",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot Bot Token, get this value from @BotFather.",
+      "value": ""
+    },
+    "API_KEY": {
+      "description": "Your APP API KEY, get this from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Your APP HASH, get this from https://my.telegram.org",
+     "value": ""
+    },
+    "CHANNEL_URL": {
+      "description": "URL of your Telegram channel link.",
+      "value": ""
+    },
+    "BOT_URL": {
+      "description": "Username of your Telegram Bot (without @). Example: JayBeeTikTokBot",
+      "value": ""
+    },
+    "WORKERS": {
+      "description": "Number of threads to use, this depends on usage.  4 is the recommended (and default) amount, but your experience may vary.",
+      "value": "4"
+    }
+  }
+}
